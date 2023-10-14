@@ -185,6 +185,15 @@ ul li a{
     gap: 30px;
 }
 
+.join{
+    max-width: 1300px;
+    margin: 100px auto;
+}
+
+.join-us{
+    flex-direction: row-reverse;
+}
+
 @media screen and (max-width: 576px) {
     header{
        padding: 0 30px;
