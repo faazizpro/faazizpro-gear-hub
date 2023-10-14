@@ -248,5 +248,17 @@ ul li a{
     }
 
     /* Course  */
-
+    .all-courses{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .popular-courses{
+        padding: 0 20px;
+    }
+    .course{
+        width: 280px;
+        height: auto;
+        margin: 0 auto;
+    }
 }
