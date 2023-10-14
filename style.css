@@ -119,6 +119,70 @@ ul li a{
     font-weight: 600;
     line-height: 70px;
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.course{
+    width: 329px;
+    height: 530px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 16px 15px;
+}
+
+.course-img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.course-intro{
+    color: #18191F;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: start;
+    margin: 15px 0;
+}
+
+.course-price{
+    color:  rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.ratings{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.ratings p{
+    color: #5E6366;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px; 
+    letter-spacing: 0.1px;
+}
+
+.ship{
+    width: 196px;
+    color:  #787885;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 0.252px;
+}
+
+.all-courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
 
 @media screen and (max-width: 576px) {
@@ -182,5 +246,7 @@ ul li a{
         align-items: center;
         gap: 30px;
     }
+
+    /* Course  */
 
 }
